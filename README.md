@@ -27,10 +27,10 @@ Role: Content Delivery Network that caches and serves static and dynamic content
 Why: It improves performance, reduces load on your origin (e.g., S3 or API), and can enforce security (OAI, signed URLs).
 
 ## Setup
-## 1. Clone the repository
-  https://github.com/eason0200/bitedance-video-streaming-backend-api-demo.git
-Navigate to the project directory
-  cd bitedance-video-streaming-backend-api-demo
+## 1a. Clone the repository
+ ' https://github.com/eason0200/bitedance-video-streaming-backend-api-demo.git'
+## 1b. Navigate to the project directory
+  'cd bitedance-video-streaming-backend-api-demo'
 
 ## 2. Install dependencies
 
