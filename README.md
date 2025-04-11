@@ -1,4 +1,11 @@
-This repo contains the modified code for the Tubely application - the #1 tool for engagement bait - for the "Learn File Servers and CDNs with S3 and CloudFront" [course](https://www.boot.dev/courses/learn-file-servers-s3-cloudfront-golang) on [boot.dev](https://www.boot.dev)
+This repo contains the modified code for the Tubely application - a SaaS product that helps YouTubers manage their video assets. It allows users to upload, store, serve, add metadata to, and version their video files. It will also allow them to manage thumbnails, titles, and other video metadata.
+
+##Project Goals
+- Understand what "large" files are and how they differ from "small" structured data
+- Build an app that uses AWS S3 and Go to store and serve assets
+- Learn how to manage files on a "normal" (non-s3) filesystem based application
+- Learn how to store and serve assets at scale using serverless solutions, like AWS S3
+- Learn how to stream video and to keep data usage low and improve performance
 
 ## Quickstart
 
