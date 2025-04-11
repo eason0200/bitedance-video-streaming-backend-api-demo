@@ -27,8 +27,12 @@ Role: Content Delivery Network that caches and serves static and dynamic content
 Why: It improves performance, reduces load on your origin (e.g., S3 or API), and can enforce security (OAI, signed URLs).
 
 ## Setup
+## 1. Clone the repository
+  https://github.com/eason0200/bitedance-video-streaming-backend-api-demo.git
+Navigate to the project directory
+  cd bitedance-video-streaming-backend-api-demo
 
-## 1. Install dependencies
+## 2. Install dependencies
 
 - [Go](https://golang.org/doc/install)
 - `go mod download` to download all dependencies
@@ -62,7 +66,7 @@ brew update
 brew install sqlite3
 ```
 
-## 2. Run the server
+## 3. Run the server
 
 ```bash
 go run .
