@@ -95,3 +95,59 @@ The two main entities in the app are videos and users. A user can have many vide
 - Video: The actual video file
 - 
 Tubely allows users to create a "new draft" - which creates a new video record in the database containing metadata only. Thumbnails and video files are uploaded separately after the draft is created.
+
+🛣️ Tubely Roadmap
+🔐 Security & Access Control
+- ✅ Implement 2FA for secure API access (Already planned)
+
+- 🔒 OAuth integration (Google, YouTube, GitHub) for easier and safer user login
+
+- 🔐 Role-based access control (Admin, Editor, Viewer)
+
+- 🧾 Audit logs for file uploads, downloads, and changes
+
+- 🔑 Signed URLs for temporary access to videos and thumbnails
+
+📁 File & Folder Management
+- ✅ Folder support for better organization (Planned)
+
+- 🗃️ Drag-and-drop UI for bulk uploads & folder structure preservation
+
+- 🔁 Version control UI (view/change versions of video and thumbnail)
+
+- 🧼 Duplicate detection and file integrity checks (hash-based)
+
+📺 Video & Asset Handling
+- ✅ Stream videos efficiently with CloudFront (Already using)
+
+- 🪞 Auto-generate thumbnails via FFMPEG
+
+- 🎞️ Generate short preview clips for each video (first 5s, etc.)
+
+- 🖼️ Live thumbnail previews on hover in dashboard
+
+- 📝 Metadata editing after upload (title, tags, description)
+
+☁️ Performance & Infrastructure
+- ✅ AWS S3 for storage (Done)
+
+- ✅ CloudFront for delivery (Done)
+
+- 📦 Implement multipart upload (Done)
+
+🧭 Enable global CloudFront edge caching
+
+📊 User Experience & Dashboard
+
+- 🌗 Dark mode support
+
+- 🧭 Onboarding walkthrough for new users
+
+⚙️ DevOps 
+- 🧪 Add test coverage (unit + integration tests)
+
+- 🛠️ CI/CD setup using GitHub Actions
+
+
+
+
