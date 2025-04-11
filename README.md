@@ -96,17 +96,12 @@ The two main entities in the app are videos and users. A user can have many vide
 - 
 Tubely allows users to create a "new draft" - which creates a new video record in the database containing metadata only. Thumbnails and video files are uploaded separately after the draft is created.
 
-🛣️ Tubely Roadmap
+## 🛣️ Tubely Roadmap
+
 🔐 Security & Access Control
 - ✅ Implement 2FA for secure API access (Already planned)
 
 - 🔒 OAuth integration (Google, YouTube, GitHub) for easier and safer user login
-
-- 🔐 Role-based access control (Admin, Editor, Viewer)
-
-- 🧾 Audit logs for file uploads, downloads, and changes
-
-- 🔑 Signed URLs for temporary access to videos and thumbnails
 
 📁 File & Folder Management
 - ✅ Folder support for better organization (Planned)
@@ -119,10 +114,6 @@ Tubely allows users to create a "new draft" - which creates a new video record i
 
 📺 Video & Asset Handling
 - ✅ Stream videos efficiently with CloudFront (Already using)
-
-- 🪞 Auto-generate thumbnails via FFMPEG
-
-- 🎞️ Generate short preview clips for each video (first 5s, etc.)
 
 - 🖼️ Live thumbnail previews on hover in dashboard
 
