@@ -14,6 +14,8 @@ This repo contains the code for the Tubely application - a SaaS product that hel
 
 ✅ Amazon S3
 Category: Backend Infrastructure (Storage Layer)
+![image](https://github.com/user-attachments/assets/27aef3db-f487-4c06-bf13-3f10264ee120)
+
 
 Role: Persistent object storage for user-uploaded files, static assets (images, videos, PDFs), backups, and more.
 
@@ -21,6 +23,7 @@ Why: It handles durability, encryption, versioning, and secure file delivery.
 
 ✅ Amazon CloudFront
 Category: Backend Infrastructure (Delivery Layer / CDN)
+![image](https://github.com/user-attachments/assets/40597bad-fc76-4160-8d80-eab2750299b7)
 
 Role: Content Delivery Network that caches and serves static and dynamic content closer to users.
 
