@@ -75,3 +75,19 @@ go run .
 - You should see a new database file `tubely.db` created in the root directory.
 - You should see a new `assets` directory created in the root directory, this is where the images will be stored.
 - You should see a link in your console to open the local web page.
+
+## 4. Open the local web page
+- Sign up with a email address and password.
+
+## Entities of the Web App
+The two main entities in the app are videos and users. A user can have many videos, and a video belongs to a single user.
+
+![image](https://github.com/user-attachments/assets/bf26e7dd-c5e6-4b8a-abc5-ddda5bf4e15a)
+
+
+"Videos" have 3 things to worry about:
+
+Metadata: The title, description, and other information about the video
+Thumbnail: An image that represents the video
+Video: The actual video file
+Tubely allows users to create a "new draft" - which creates a new video record in the database containing metadata only. Thumbnails and video files are uploaded separately after the draft is created.
