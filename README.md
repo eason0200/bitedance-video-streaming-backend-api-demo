@@ -108,14 +108,8 @@ Tubely allows users to create a "new draft" - which creates a new video record i
 
 - 🗃️ Drag-and-drop UI for bulk uploads & folder structure preservation
 
-- 🔁 Version control UI (view/change versions of video and thumbnail)
-
-- 🧼 Duplicate detection and file integrity checks (hash-based)
-
 📺 Video & Asset Handling
 - ✅ Stream videos efficiently with CloudFront (Already using)
-
-- 🖼️ Live thumbnail previews on hover in dashboard
 
 - 📝 Metadata editing after upload (title, tags, description)
 
@@ -124,9 +118,9 @@ Tubely allows users to create a "new draft" - which creates a new video record i
 
 - ✅ CloudFront for delivery (Done)
 
-- 📦 Implement multipart upload (Done)
+- ✅ Implement multipart upload (Done)
 
-🧭 Enable global CloudFront edge caching
+- ✅ Enable global CloudFront edge caching (Done)
 
 📊 User Experience & Dashboard
 
