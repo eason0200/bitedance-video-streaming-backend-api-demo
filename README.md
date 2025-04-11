@@ -7,7 +7,25 @@ This repo contains the modified code for the Tubely application - a SaaS product
 - Learn how to store and serve assets at scale using serverless solutions, like AWS S3
 - Learn how to stream video and to keep data usage low and improve performance
 
-## Quickstart
+## Architecture
+- Frontend: Javascript, HTML, CSS
+- Backend: Golang
+- 🔧 Backend Infrastructure Services
+✅ Amazon S3
+Category: Backend Infrastructure (Storage Layer)
+
+Role: Persistent object storage for user-uploaded files, static assets (images, videos, PDFs), backups, and more.
+
+Why: It handles durability, encryption, versioning, and secure file delivery.
+
+✅ Amazon CloudFront
+Category: Backend Infrastructure (Delivery Layer / CDN)
+
+Role: Content Delivery Network that caches and serves static and dynamic content closer to users.
+
+Why: It improves performance, reduces load on your origin (e.g., S3 or API), and can enforce security (OAI, signed URLs).
+
+## Setup
 
 ## 1. Install dependencies
 
