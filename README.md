@@ -87,7 +87,8 @@ The two main entities in the app are videos and users. A user can have many vide
 
 "Videos" have 3 things to worry about:
 
-Metadata: The title, description, and other information about the video
-Thumbnail: An image that represents the video
-Video: The actual video file
+- Metadata: The title, description, and other information about the video
+- Thumbnail: An image that represents the video
+- Video: The actual video file
+- 
 Tubely allows users to create a "new draft" - which creates a new video record in the database containing metadata only. Thumbnails and video files are uploaded separately after the draft is created.
