@@ -1,4 +1,4 @@
-This repo contains the modified code for the Tubely application - a SaaS product that helps YouTubers manage their video assets. It allows users to upload, store, serve, add metadata to, and version their video files. It will also allow them to manage thumbnails, titles, and other video metadata.
+This repo contains the code for the Tubely application - a SaaS product that helps YouTubers manage their video assets. It allows users to upload, store, serve, add metadata to, and version their video files. It will also allow them to manage thumbnails, titles, and other video metadata.
 
 ## Project Goals
 - Understand what "large" files are and how they differ from "small" structured data
