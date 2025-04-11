@@ -17,6 +17,10 @@ This repo contains the starter code for the Tubely application - the #1 tool for
 sudo apt update
 sudo apt install ffmpeg
 
+# windows: Chocolatey (easier for future updates)
+# if you install FFMPEG using Chocolatey, it automatically adds both ffmpeg and ffprobe to your system PATH — no manual steps required.
+choco install ffmpeg 
+
 # mac
 brew update
 brew install ffmpeg
@@ -25,6 +29,8 @@ brew install ffmpeg
 - [SQLite 3](https://www.sqlite.org/download.html) only required for you to manually inspect the database.
 
 ```bash
+#windows : use VS Code third party SQL extension to open the database
+
 # linux
 sudo apt update
 sudo apt install sqlite3
@@ -34,27 +40,7 @@ brew update
 brew install sqlite3
 ```
 
-- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-
-## 2. Download sample images and videos
-
-```bash
-./samplesdownload.sh
-# samples/ dir will be created
-# with sample images and videos
-```
-
-## 3. Configure environment variables
-
-Copy the `.env.example` file to `.env` and fill in the values.
-
-```bash
-cp .env.example .env
-```
-
-You'll need to update values in the `.env` file to match your configuration, but _you won't need to do anything here until the course tells you to_.
-
-## 3. Run the server
+## 2. Run the server
 
 ```bash
 go run .
